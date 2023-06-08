@@ -295,20 +295,16 @@ class Calculation():
 
 class EnterSection():
     
-    
-    
     def __init__(self,cont) -> None:
-        
-        #Enter part 
-
+        #Enter part
         def isOkey(input):
-            
             try:
+                
                 if(input == ""):
-                    
                     return True
                 
                 number = int(input)
+                
                 if(0<=number<=100000000):
                     
                     return True 
